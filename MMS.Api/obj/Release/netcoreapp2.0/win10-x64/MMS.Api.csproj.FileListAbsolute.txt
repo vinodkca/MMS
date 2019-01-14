@@ -1,0 +1,14 @@
+C:\Projects\VS2017\MMS\MMS.Api\bin\Release\netcoreapp2.0\win10-x64\AppConfig.json
+C:\Projects\VS2017\MMS\MMS.Api\bin\Release\netcoreapp2.0\win10-x64\hostpolicy.dll
+C:\Projects\VS2017\MMS\MMS.Api\bin\Release\netcoreapp2.0\win10-x64\hostfxr.dll
+C:\Projects\VS2017\MMS\MMS.Api\bin\Release\netcoreapp2.0\win10-x64\MMS.Api.exe
+C:\Projects\VS2017\MMS\MMS.Api\bin\Release\netcoreapp2.0\win10-x64\MMS.Api.deps.json
+C:\Projects\VS2017\MMS\MMS.Api\bin\Release\netcoreapp2.0\win10-x64\MMS.Api.runtimeconfig.json
+C:\Projects\VS2017\MMS\MMS.Api\bin\Release\netcoreapp2.0\win10-x64\MMS.Api.runtimeconfig.dev.json
+C:\Projects\VS2017\MMS\MMS.Api\bin\Release\netcoreapp2.0\win10-x64\MMS.Api.dll
+C:\Projects\VS2017\MMS\MMS.Api\bin\Release\netcoreapp2.0\win10-x64\MMS.Api.pdb
+C:\Projects\VS2017\MMS\MMS.Api\obj\Release\netcoreapp2.0\win10-x64\MMS.Api.csproj.CoreCompileInputs.cache
+C:\Projects\VS2017\MMS\MMS.Api\obj\Release\netcoreapp2.0\win10-x64\MMS.Api.AssemblyInfoInputs.cache
+C:\Projects\VS2017\MMS\MMS.Api\obj\Release\netcoreapp2.0\win10-x64\MMS.Api.AssemblyInfo.cs
+C:\Projects\VS2017\MMS\MMS.Api\obj\Release\netcoreapp2.0\win10-x64\MMS.Api.dll
+C:\Projects\VS2017\MMS\MMS.Api\obj\Release\netcoreapp2.0\win10-x64\MMS.Api.pdb

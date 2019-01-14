@@ -1,0 +1,11 @@
+C:\Projects\VS2017\MMS\MMS.Api\bin\Debug\netcoreapp2.0\AppConfig.json
+C:\Projects\VS2017\MMS\MMS.Api\bin\Debug\netcoreapp2.0\MMS.Api.deps.json
+C:\Projects\VS2017\MMS\MMS.Api\bin\Debug\netcoreapp2.0\MMS.Api.runtimeconfig.json
+C:\Projects\VS2017\MMS\MMS.Api\bin\Debug\netcoreapp2.0\MMS.Api.runtimeconfig.dev.json
+C:\Projects\VS2017\MMS\MMS.Api\bin\Debug\netcoreapp2.0\MMS.Api.dll
+C:\Projects\VS2017\MMS\MMS.Api\bin\Debug\netcoreapp2.0\MMS.Api.pdb
+C:\Projects\VS2017\MMS\MMS.Api\obj\Debug\netcoreapp2.0\MMS.Api.csproj.CoreCompileInputs.cache
+C:\Projects\VS2017\MMS\MMS.Api\obj\Debug\netcoreapp2.0\MMS.Api.AssemblyInfoInputs.cache
+C:\Projects\VS2017\MMS\MMS.Api\obj\Debug\netcoreapp2.0\MMS.Api.AssemblyInfo.cs
+C:\Projects\VS2017\MMS\MMS.Api\obj\Debug\netcoreapp2.0\MMS.Api.dll
+C:\Projects\VS2017\MMS\MMS.Api\obj\Debug\netcoreapp2.0\MMS.Api.pdb
