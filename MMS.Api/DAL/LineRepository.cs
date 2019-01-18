@@ -45,7 +45,7 @@ namespace MMS.Api.DAL
                 line.TrackingLineName = lineItem.TrackingLineName;
                 line.Type = lineItem.Type;
                 line.AccountNumber = lineItem.AccountNumber;
-                line.Advertiser = lineItem.Advertiser;
+                line.Market = lineItem.Market;
                 line.Heading = lineItem.Heading;
                 line.UDAC = lineItem.UDAC;
                 line.PubDate = lineItem.PubDate;

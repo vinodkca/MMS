@@ -32,7 +32,7 @@ namespace MMS.Model {
 
         //Database Value Columns instead of label
         public string AccountNumber { get; set; }
-        public string Advertiser { get; set; }
+        public string Market { get; set; }
         public string Heading { get; set; }
         public string UDAC { get; set; }
         public string PubDate { get; set; }

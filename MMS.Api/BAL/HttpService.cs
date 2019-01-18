@@ -193,8 +193,8 @@ namespace MMS.Api.BAL {
                 case "Account Number":
                     line.AccountNumber = line.LabelValue01;
                     break;
-                case "Advertiser":
-                    line.Advertiser = line.LabelValue02;
+                case "Market":
+                    line.Market = line.LabelValue02;
                     break;
                 case "Heading":
                     line.Heading = line.LabelValue03;
@@ -228,7 +228,7 @@ namespace MMS.Api.BAL {
                     $" Label01 -- 10 : {line.Label01},{line.Label02} ,{line.Label03} ,{line.Label04} ,{line.Label05} ,{line.Label06} ,{line.Label07} ,{line.Label08},{line.Label09} ,{line.Label10}  \t " +
                     $" LabelValue01--10 : {line.LabelValue01},{line.LabelValue02} ,{line.LabelValue03} ,{line.LabelValue04} ,{line.LabelValue05} ,{line.LabelValue06} ,{line.LabelValue07} ,{line.LabelValue08},{line.LabelValue09} ,{line.LabelValue10} \t" +
                     $" AccountNumber : {line.AccountNumber} \t" +
-                    $" Advertiser : {line.Advertiser} \t" +
+                    $" Market : {line.Market} \t" +
                     $" Heading : {line.Heading} \t" +
                     $" UDAC : {line.UDAC} \t" +
                     $" PubDate : {line.PubDate} \t" +
