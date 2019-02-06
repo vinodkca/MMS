@@ -44,13 +44,13 @@ namespace MMS.Api.DAL
                 line.RingTo = lineItem.RingTo;
                 line.TrackingLineName = lineItem.TrackingLineName;
                 line.Type = lineItem.Type;
+                line.Year = lineItem.Year;
                 line.AccountNumber = lineItem.AccountNumber;
                 line.Market = lineItem.Market;
                 line.Heading = lineItem.Heading;
                 line.UDAC = lineItem.UDAC;
                 line.PubDate = lineItem.PubDate;
-                line.EndPubDate = lineItem.EndPubDate;
-                line.OriginalStartDate = lineItem.OriginalStartDate;                
+                line.EmailAddress = lineItem.EmailAddress;                
                 line.CreatedDate = lineItem.CreatedDate;
 
                 lstLinesDB.Add(line);

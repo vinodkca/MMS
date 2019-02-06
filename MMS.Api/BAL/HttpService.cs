@@ -190,26 +190,26 @@ namespace MMS.Api.BAL {
         #region Helper functions
         private static void ConvertLineItem (string ColName, LineItem line) {
             switch (ColName) {
+                case "Year":
+                    line.Year = line.LabelValue01;
+                    break;
                 case "Account Number":
-                    line.AccountNumber = line.LabelValue01;
+                    line.AccountNumber = line.LabelValue02;
                     break;
                 case "Market":
-                    line.Market = line.LabelValue02;
+                    line.Market = line.LabelValue03;
                     break;
                 case "Heading":
-                    line.Heading = line.LabelValue03;
+                    line.Heading = line.LabelValue04;
                     break;
                 case "UDAC":
-                    line.UDAC = line.LabelValue04;
+                    line.UDAC = line.LabelValue05;
                     break;
                 case "Pub Date":
-                    line.PubDate = line.LabelValue05;
+                    line.PubDate = line.LabelValue06;
                     break;
-                case "End Pub Date":
-                    line.EndPubDate = line.LabelValue06;
-                    break;
-                case "Original Start Date":
-                    line.OriginalStartDate = line.LabelValue07;
+                case "Email Address":
+                    line.EmailAddress = line.LabelValue07;
                     break;
                 default:
                     break;
@@ -227,13 +227,13 @@ namespace MMS.Api.BAL {
                     $" Type : {line.Type} \t" +
                     $" Label01 -- 10 : {line.Label01},{line.Label02} ,{line.Label03} ,{line.Label04} ,{line.Label05} ,{line.Label06} ,{line.Label07} ,{line.Label08},{line.Label09} ,{line.Label10}  \t " +
                     $" LabelValue01--10 : {line.LabelValue01},{line.LabelValue02} ,{line.LabelValue03} ,{line.LabelValue04} ,{line.LabelValue05} ,{line.LabelValue06} ,{line.LabelValue07} ,{line.LabelValue08},{line.LabelValue09} ,{line.LabelValue10} \t" +
+                    $" Year : {line.Year} \t" +
                     $" AccountNumber : {line.AccountNumber} \t" +
                     $" Market : {line.Market} \t" +
                     $" Heading : {line.Heading} \t" +
                     $" UDAC : {line.UDAC} \t" +
                     $" PubDate : {line.PubDate} \t" +
-                    $" EndPubDate : {line.EndPubDate} \t" +
-                    $" OriginalStartDate : {line.OriginalStartDate} \t"
+                    $" EmailAddress : {line.EmailAddress} \t" 
                 );
                 return;
             }
