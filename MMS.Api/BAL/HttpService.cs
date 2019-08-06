@@ -73,6 +73,8 @@ namespace MMS.Api.BAL {
                     ConvertLineItem (line.Label05, line);
                     ConvertLineItem (line.Label06, line);
                     ConvertLineItem (line.Label07, line);
+                    ConvertLineItem (line.Label08, line);
+                    ConvertLineItem (line.Label09, line);
                 }
 
                 if (lineService.TruncateTable ()) {
@@ -211,6 +213,12 @@ namespace MMS.Api.BAL {
                 case "Email Address":
                     line.EmailAddress = line.LabelValue07;
                     break;
+                case "Type":
+                    line.PortType = line.LabelValue08;
+                    break;
+                case "Port Date":
+                    line.PortDate = line.LabelValue09;
+                    break;
                 default:
                     break;
             }
@@ -233,7 +241,9 @@ namespace MMS.Api.BAL {
                     $" Heading : {line.Heading} \t" +
                     $" UDAC : {line.UDAC} \t" +
                     $" PubDate : {line.PubDate} \t" +
-                    $" EmailAddress : {line.EmailAddress} \t" 
+                    $" EmailAddress : {line.EmailAddress} \t" +
+                    $" Type : {line.PortType} \t" +
+                    $" PortDate : {line.PortDate} \t" 
                 );
                 return;
             }

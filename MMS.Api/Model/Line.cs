@@ -16,6 +16,8 @@ namespace MMS.Model {
         public string UDAC { get; set; }
         public string PubDate { get; set; }
         public string EmailAddress { get; set; }        
+        public string PortType { get; set; }   
+        public string PortDate { get; set; }   
         public DateTime CreatedDate { get; set; } = DateTime.Now;
 
     }

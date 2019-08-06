@@ -50,7 +50,9 @@ namespace MMS.Api.DAL
                 line.Heading = lineItem.Heading;
                 line.UDAC = lineItem.UDAC;
                 line.PubDate = lineItem.PubDate;
-                line.EmailAddress = lineItem.EmailAddress;                
+                line.EmailAddress = lineItem.EmailAddress; 
+                line.PortType = lineItem.PortType; 
+                line.PortDate = lineItem.PortDate;                
                 line.CreatedDate = lineItem.CreatedDate;
 
                 lstLinesDB.Add(line);
