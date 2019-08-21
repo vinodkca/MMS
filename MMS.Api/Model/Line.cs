@@ -18,6 +18,9 @@ namespace MMS.Model {
         public string EmailAddress { get; set; }        
         public string PortType { get; set; }   
         public string PortDate { get; set; }   
+        public string ContractNumber { get; set; } 
+        public string CMRNumber { get; set; }   
+        public string TerminationDate { get; set; }         
         public DateTime CreatedDate { get; set; } = DateTime.Now;
 
     }

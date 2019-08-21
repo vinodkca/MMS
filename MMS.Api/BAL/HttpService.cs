@@ -219,6 +219,15 @@ namespace MMS.Api.BAL {
                 case "Port Date":
                     line.PortDate = line.LabelValue09;
                     break;
+                case "Contract Number":
+                    line.ContractNumber = line.LabelValue10;
+                    break;
+                case "CMR Number":
+                    line.CMRNumber = line.LabelValue11;
+                    break;
+                case "Termination Date":
+                    line.TerminationDate = line.LabelValue12;
+                    break;
                 default:
                     break;
             }
@@ -234,7 +243,7 @@ namespace MMS.Api.BAL {
                     $" TrackingLineName : {line.TrackingLineName} \t" +
                     $" Type : {line.Type} \t" +
                     $" Label01 -- 10 : {line.Label01},{line.Label02} ,{line.Label03} ,{line.Label04} ,{line.Label05} ,{line.Label06} ,{line.Label07} ,{line.Label08},{line.Label09} ,{line.Label10}  \t " +
-                    $" LabelValue01--10 : {line.LabelValue01},{line.LabelValue02} ,{line.LabelValue03} ,{line.LabelValue04} ,{line.LabelValue05} ,{line.LabelValue06} ,{line.LabelValue07} ,{line.LabelValue08},{line.LabelValue09} ,{line.LabelValue10} \t" +
+                    $" LabelValue01--10 : {line.LabelValue01},{line.LabelValue02} ,{line.LabelValue03} ,{line.LabelValue04} ,{line.LabelValue05} ,{line.LabelValue06} ,{line.LabelValue07} ,{line.LabelValue08},{line.LabelValue09} ,{line.LabelValue10},{line.LabelValue11} ,{line.LabelValue12} \t" +
                     $" Year : {line.Year} \t" +
                     $" AccountNumber : {line.AccountNumber} \t" +
                     $" Market : {line.Market} \t" +
@@ -243,7 +252,10 @@ namespace MMS.Api.BAL {
                     $" PubDate : {line.PubDate} \t" +
                     $" EmailAddress : {line.EmailAddress} \t" +
                     $" Type : {line.PortType} \t" +
-                    $" PortDate : {line.PortDate} \t" 
+                    $" PortDate : {line.PortDate} \t" + 
+                    $" ContractNumber : {line.ContractNumber} \t" +
+                    $" CMRNumber : {line.CMRNumber} \t" +
+                    $" TerminationDate : {line.TerminationDate} \t" 
                 );
                 return;
             }

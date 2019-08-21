@@ -53,6 +53,9 @@ namespace MMS.Api.DAL
                 line.EmailAddress = lineItem.EmailAddress; 
                 line.PortType = lineItem.PortType; 
                 line.PortDate = lineItem.PortDate;                
+                line.ContractNumber = lineItem.ContractNumber; 
+                line.CMRNumber = lineItem.CMRNumber; 
+                line.TerminationDate = lineItem.TerminationDate;                
                 line.CreatedDate = lineItem.CreatedDate;
 
                 lstLinesDB.Add(line);

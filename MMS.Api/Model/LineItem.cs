@@ -29,6 +29,8 @@ namespace MMS.Model {
         public string LabelValue08 { get; set; }
         public string LabelValue09 { get; set; }
         public string LabelValue10 { get; set; }
+        public string LabelValue11 { get; set; }
+        public string LabelValue12 { get; set; }
 
         //Database Value Columns instead of label
         public string Year { get; set; }
@@ -40,6 +42,9 @@ namespace MMS.Model {
         public string EmailAddress { get; set; } 
         public string PortType { get; set; }   
         public string PortDate { get; set; }         
+        public string ContractNumber { get; set; } 
+        public string CMRNumber { get; set; }   
+        public string TerminationDate { get; set; }         
         public DateTime CreatedDate { get; set; } = DateTime.Now;
 
     }
